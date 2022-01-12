@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--dark);
+    background-color: var(--light);
+    height: 100vh;
+    font-family: 'Ubuntu Bold';
+}
+
+.app-name{
+    font-family: 'Ubuntu Bold';
+    font-size: 10vw;
+    margin-top: 5vh;
+}
+
+.app-logo{
+    font-size: 35vw;
+}

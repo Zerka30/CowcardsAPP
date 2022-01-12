@@ -1,0 +1,34 @@
+:root{
+    --dark: #353535;
+    --light: #fff;
+}
+  
+  body {
+    background-color: var(--light);
+    color: var(--dark);
+    font-family: 'Ubuntu Bold' !important;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Ubuntu Bold';
+    line-height: normal;
+  }
+  
+body:has(.dark-mode) {
+  --background-color: var(--dark);
+  --border-color: var(--light);
+  --input-background: var(--dark);
+  --text-color: var(--light);
+}
+  
+body:has(.light-mode) {
+  --background-color: var(--light);
+  --border-color: var(--dark);
+  --input-background: var(--light);
+  --text-color: var(--dark);
+}

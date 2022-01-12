@@ -1,0 +1,90 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app-logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+.app-logo-icon{
+    font-size: 15vh;
+}
+
+.app-logo-name{
+    margin-top: 2vh;
+    font-size: 5vh;
+    font-weight: bold;
+    color: var(--dark);
+}
+
+.login-form{
+    margin-top: 5vh;
+    width: 70vw;
+}
+
+.login-form > div::not(:last-child){
+    margin: 0 0 5vh;
+}
+
+input {
+    width: calc(100% - 20px);
+    height: 5vh;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: none;
+    border: solid 1px var(--dark);
+    margin: 10px 0 10px;
+    background-color: var(--light);
+    padding: 0 10px 0;
+    color: var(--dark);
+}
+
+.input-label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+label{
+    margin-left: 10px;
+}
+
+.no-account{
+    font-size: 2vh;
+    font-weight: bold;
+    color: var(--dark);
+}
+
+
+.btn-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5vh;
+}
+
+.btn-login{
+    background-color: var(--dark);
+    color: var(--light);
+    width: 50vw;
+    height: 5vh;
+    border-radius: 10px;
+    margin-bottom: 2.5vh;
+    font-size: 2vh;
+}
+
+.btn-fingerprint{
+    background-color: var(--light);
+    border: solid 1px var(--dark);
+    width: 50vw;
+    height: 5vh;
+    border-radius: 10px;
+}
