@@ -13,7 +13,7 @@
 
 ---
 
-<p align="center"> A Team Bookmarks website
+<p align="center"> An application to store loyalty cards
     <br> 
 </p>
 
