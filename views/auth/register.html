@@ -24,6 +24,15 @@
                 <h1 class="app-logo-name">COWCARD</h1>
             </div>
             <form class="login-form">
+                <div class="email">
+                    <div class="input-label">
+                        <span class="iconify" data-icon="mdi:lock-outline" style="font-size: 24px;"></span>
+                        <label for="email">Email</label>
+                    </div>
+                    <input type="text" id="email" name="email" placeholder="E-mail" required aria-required="true" 
+                    spellcheck="false"  autocomplete="mail" aria-label="Nom d'utilisateur" autocapitalize="none" dir="ltr"
+                    title="Adresse e-mail"> 
+                </div>
                 <div class="login">
                     <div class="input-label">
                         <span class="iconify" data-icon="mdi:account-outline" style="font-size: 24px;"></span>
@@ -42,7 +51,7 @@
                     spellcheck="false" autocomplete="current-password" aria-label="Mot de passe" autocapitalize="off" dir="ltr"
                     title="Votre mot de passe doit faire 8 carractères avec une majuscule et un chiffre"> 
                 </div>
-                <a href="#"><p class="no-account">Vous n'avez pas de compte ?<p></a>
+                <a href="#"><p class="already-account">Vous avez déjà un compte ?</p></a>
                 <div class="btn-container">
                     <button type='button' class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect btn-login" onclick="login()">
                         Login
