@@ -1,0 +1,17 @@
+.header-logo{
+    display: flex;
+    align-items: center;
+    width: calc(100% - 1vh);
+    margin: 1vh;
+}
+
+.header-icons{
+    font-size: 5vh;
+}
+
+.header-text{
+    font-family: 'Ubuntu Bold';
+    font-size: 2.5vh;
+    margin: 0;
+    margin-left: 1vh;
+}
