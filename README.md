@@ -27,5 +27,7 @@ Cowcards is an application for storing loyalty cards, its particularity, the pos
 ## ℹ Informations <a name = "informations"></a>
 We use [gitmoji](https://gitmoji.dev/) for our commit messages.
 
+Application build using [Capacitor](https://capacitorjs.com/)
+
 ## ✍️ Authors <a name = "authors"></a>
 - [@Zerka30](https://github.com/Zerka30) - creator and developer
