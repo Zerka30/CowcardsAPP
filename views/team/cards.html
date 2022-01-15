@@ -8,7 +8,7 @@
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
 
         <link rel="stylesheet" href="../../assets/css/styles.css">
-        <link rel="stylesheet" href="../../assets/css/account/account.css">
+        <link rel="stylesheet" href="../../assets/css/team/cards.css">
 
         <!-- Import parts -->
         <link rel="stylesheet" href="../../assets/css/elements/header.css">
@@ -17,7 +17,6 @@
         <!-- Import Font -->
         <link rel="stylesheet" href="../../assets/css/utils/fonts.css">
 
-        <title>Account</title>
     </head>
     <body class="dark-mode">
         <header>
@@ -27,29 +26,49 @@
             </div>
         </header>
         <div class="container">
-            <div class="profil-container">
-                <div class="profil-img">
-                    <img src="../../assets/img/men.svg" alt="">
+            <div class="head-cards">
+                <div class="head-container">
+                    <h1 class="page-title">Cartes Famille</h1>
+                    <div class="btn-container">
+                        <div class="btn-back">
+                            <span class="iconify btn-back" data-icon="mdi:arrow-left-thin"></span>
+                        </div>
+                        <div class="btn-add-card">
+                            <span class="iconify btn-add-icons" data-icon="mdi:plus"></span>
+                        </div>
+                    </div>
                 </div>
-                <div class="profil-name">
-                    <h1>John Doe</h1>
+                <div class="tags-container">
+                    <div class="selected">
+                        <h1 class="tags-title">Tous</h1>
+                    </div>
+                    <div class="not-selected">
+                        <h1 class="tags-title">Hypermarchés</h1>
+                    </div>
+                    <div class="not-selected">
+                        <h1 class="tags-title">Vêtements</h1>
+                    </div>
+                    <div class="not-selected">
+                        <h1 class="tags-title">Electronique</h1>
+                    </div>
                 </div>
             </div>
-            <div class="parameters-container">
-                <ul>
-                    PARAMETRES
-                    <li style="margin-top: 2vh;"><span class="iconify" data-icon="mdi:earth"></span> Région</li>
-                    <li><span class="iconify" data-icon="mdi:translate"></span> Langages</li>
-                    <li id="disconnect"><span class="iconify" data-icon="mdi:power"></span> Me Déconnecter</li>
-                </ul>
-                <ul>
-                    AUTRES
-                    <li style="margin-top: 2vh;"><span class="iconify" data-icon="mdi:help-circle-outline"></span> Aide</li>
-                    <li><span class="iconify" data-icon="mdi:star-outline"></span> Evaluer</li>
-                </ul>
-            </div>
-            <div class="sub-footer">
-
+            <div class="cards-container">
+                <div class="cards">
+                    <img src="../../assets/img/logo/carrefour.svg" alt="logo">
+                </div>
+                <div class="cards">
+                    <img src="../../assets/img/logo/fnac.svg" alt="logo">
+                </div>
+                <div class="cards">
+                    <img src="../../assets/img/logo/burgerking.svg" alt="logo">
+                </div>
+                <div class="cards">
+                    <img src="../../assets/img/logo/mcdo.svg" alt="logo">
+                </div>
+                <div class="cards">
+                    <img src="../../assets/img/logo/Adidas.svg" alt="logo">
+                </div>
             </div>
         </div>
         <footer>
@@ -72,11 +91,9 @@
                 </div>
             </a>
         </footer>
-        <!-- Import JS Librairies -->
-        <script src="../../assets/librairies/mdl/material.min.js"></script>
-        <script src="../../assets/librairies/iconify/index.js"></script>
-
-        <!-- Import JS -->
         <script src="../../assets/js/index.js"></script>
+        <script src="../../assets/js/cards.js"></script>
+        <script src="../../assets/librairies/iconify/index.js"></script>
+        <script src="../../assets/librairies/mdl/material.min.js"></script>
     </body>
 </html>
